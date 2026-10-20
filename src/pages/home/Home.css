@@ -1,0 +1,48 @@
+/* Home.css */
+.home {
+  background-image: url('/MoonBkgResized.png');
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-color: #1b1850;
+
+  min-height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 24px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.home__title {
+  margin: 1fr;
+  color: #fff6ec;
+  font-size: clamp(48px, 9vw, 120px);
+  text-shadow: 0 2px 24px rgba(0, 0, 0, 0.5);
+}
+
+.home__tagline {
+  max-width: 520px;
+  color: #e6e0ff;
+  font-size: clamp(18px, 2.4vw, 28px);
+}
+
+.home__button {
+  margin-top: 24px;
+  padding: 14px 28px;
+  border: 0;
+  border-radius: 999px;
+  background: #ff9ec7;
+  color: #1b1850;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.home__button:hover {
+  background: #ffb3d4;
+}
