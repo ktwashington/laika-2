@@ -94,6 +94,10 @@ export default function Dashboard() {
             Schedule
           </Link>
         </nav>
+        <Link to="/" className="dashboard-nav-link">
+            <span aria-hidden="true">⎋</span>
+            Log out
+        </Link>
 
         <div className="dashboard-sidebar-footer">
           <div className="dashboard-mascot" aria-hidden="true">
